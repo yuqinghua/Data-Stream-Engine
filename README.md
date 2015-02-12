@@ -76,3 +76,10 @@ fileds_add=[
 class=com.mryu.flune.event.TextLineEvent
 fileds=[{"name":"text", "col":1, "type":"string"}]
 ```
+
+
+#USAGE
+```
+ContextConfigure configure = new ContextConfigure("F:\\workspace\\logtail-1.1\\src\\main\\resources\\logtail-console-config.ini");
+configure.startup();
+```
