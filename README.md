@@ -15,7 +15,7 @@ JDK 7.0+
 the author create an class "JavaTailInput.java" implements of AbstractInput, 
 this class is based on Java NIO2 to read text line from files which can be special as an regular Expression. 
 And many files are monitored by this input(absolutely , 
-I test 10 thousands of text file, it read 40 thousands line from an file per seconds and it's benifit of NIO2).
+I test 10 thousands of text file, it read 400 thousands line from an file per seconds on my little PC and it's benifit of NIO2).
 the message of read while post to events to filter and process it;
 
 2、Event
