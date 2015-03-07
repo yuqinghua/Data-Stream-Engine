@@ -26,6 +26,7 @@ it can resolve textline and create an json object which is past to Ouput Instanc
 ConsoleOutput is an implementation of AbstractOutput. just log the result of json. 
 
 #NOTIFICATION
+inputs、events and output and be one or many values.
 ```
 [config]
 mryu.tunnel1.input=Input-Java-Tail
@@ -33,7 +34,7 @@ mryu.tunnel1.events=['Event-Consume','Event-TextLine']
 mryu.tunnel1.output=Output-Console-Log
 mryu.tunnel1.size=20000
 mryu.tunnel2.input=Input-Java-Tail
-mryu.tunnel2.events=['Event-Consume']
+mryu.tunnel2.events=Event-Consume
 mryu.tunnel2.output=Output-Console-Log
 mryu.tunnel2.size=30000
 
